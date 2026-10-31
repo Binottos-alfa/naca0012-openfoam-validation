@@ -8,3 +8,13 @@
 | OpenFOAM | v2606 (openfoam.com) |
 | ParaView | 6.2.0 (Windows) |
 | Hardware | 32 logical cores, 15 GiB RAM available to WSL |
+
+## Repository structure
+
+- `geometry/` – airfoil coordinate scripts
+- `mesh/` – NASA grid family
+- `cases/` – one OpenFOAM case per run
+- `reference/` – NASA experimental and reference data
+- `scripts/` – run, post-processing and GCI scripts
+- `results/` – summarized data and figures
+- `report/` – final report

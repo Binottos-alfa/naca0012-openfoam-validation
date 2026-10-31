@@ -1,0 +1,12 @@
+# OpenFOAM 计算结果（0/ 是初始条件，要保留）
+cases/*/[1-9]*/
+cases/*/0.[0-9]*/
+cases/*/processor*/
+cases/*/postProcessing/
+cases/*/constant/polyMesh/
+cases/*/log.*
+*.foam
+
+# Python
+.venv/
+__pycache__/
